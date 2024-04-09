@@ -1,0 +1,17 @@
+:root {
+ --color-red: #ff0000;
+ --color-green: #00ff00;
+ --color-blue: #0000ff;
+ --color-black: #000000;
+ --color-white: #ffffff;
+}
+.nesym.jpg.jpg {
+    max-width: 500%;
+    /* La imagen no superará el 100% del ancho del contenedor */
+    height: auto;
+    /* Se mantendrá la proporción original de la imagen */
+    display: block;
+    /* Para centrar la imagen */
+    margin: 0 auto;
+    /* Para centrar la imagen horizontalmente */
+}

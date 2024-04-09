@@ -1,4 +1,4 @@
-.bi {
+bi {
   display: inline-block;
   width: 1rem;
   height: 1rem;
@@ -8,24 +8,37 @@
  * Sidebar
  */
 
+ .nesym.jpg.jpg {
+   max-width: 5000px;
+   /* Ajusta el tamaño de la imagen según tus necesidades */
+   margin-bottom: 50px;
+   /* Espaciado inferior entre la imagen y el contenido */
+   display: block;
+   /* Para centrar la imagen */
+   margin-left: auto;
+   margin-right: auto;
+ }
+
 @media (min-width: 768px) {
   .sidebar .offcanvas-lg {
     position: -webkit-sticky;
     position: sticky;
     top: 48px;
   }
+
   .navbar-search {
+
     display: block;
   }
 }
 
 .sidebar .nav-link {
   font-size: .875rem;
-  font-weight: 500;
+  font-weight: 1000;
 }
 
 .sidebar .nav-link.active {
-  color: hwb(227 10% 11% / 0.935);
+  color: hwb(121 10% 11% / 0.935);
 }
 
 .sidebar-heading {
@@ -37,14 +50,12 @@
  */
 
 .navbar-brand {
-  padding-top: .75rem;
-  padding-bottom: .75rem;
-  background-color: rgba(0, 0, 0, .25);
-  box-shadow: inset -1px 0 0 rgba(0, 0, 0, .25);
+  padding-top: .85rem;
+  padding-bottom: .85rem;
+  background-color: rgba(242, 11, 11, 0.932);
+  box-shadow: inset -1px 0 0 #f2160aee;
 }
 
 .navbar .form-control {
   padding: .75rem 1rem;
 }
-
-
