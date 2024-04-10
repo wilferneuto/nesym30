@@ -8,7 +8,7 @@
 
    require("../conexion.php");
 
-  // $editar = " UPDATE compras SET nombre = '$params->nombre ', cantidad = '$params->cantidad', total= '$params->total', fo_cliente= '$params->fo_cliente', fo_producto= '$params->fo_producto' , fo_fecha= '$params->fo_fecha'  WHERE compras = $params->compras";
+  // $editar = " UPDATE cliente SET nombre = '$params->nombre ', area = '$params->area', telefono= '$params->telefono'WHERE compras = $params->compras";
    //mysqli_query($conexion , $editar) or die('no edito');
 
 
